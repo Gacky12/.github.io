@@ -22,7 +22,6 @@ p {
 .section_title::after {
 
   display: block;
-
     font-size: 14px;
     font-weight: 400;
     padding: 16px 0 16px;
@@ -212,6 +211,16 @@ margin: 0 auto 0;
   height: 44px;
   left: 24px;
   bottom: 24px;
+}
+
+
+/* -----------------------------------------------シェフ */
+.chef_bg {
+  background-color: #fdf5e6;
+}
+
+.chef::after {
+  content: "シェフ";
 }
 
 /* ----------------------------------------------- アクセス */
